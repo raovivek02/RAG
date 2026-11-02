@@ -1,0 +1,325 @@
+[RAG] OK  Q: What is the maximum recommended daily dose of metformin for adults?
+GOLD: 2550 mg
+ANS: The maximum recommended daily dose of metformin for adults is 2550 mg per day, given in divided doses [2, 3]. Doses above 2000 mg may be better tolerated when given 3 times a day with meals [2].
+SRC: ['metformin hydrochloride|Pediatric Use', 'metformin hydrochloride|Dosage and Administration', 'metformin hydrochloride|Dosage and Administration', 'metformin hydrochloride|Use in Specific Populations', 'metformin hydrochloride|Dosage and Administration']
+
+[NO-RAG] OK  Q: What is the maximum recommended daily dose of metformin for adults?
+GOLD: 2550 mg
+ANS: The maximum recommended daily dose of metformin for adults is typically 2000 mg per dose, with a maximum total daily dose of 2550 mg. However, dosing can be adjusted based on individual patient needs and tolerance.
+SRC: []
+
+[RAG] OK  Q: What are the contraindications of warfarin?
+GOLD: pregnan
+ANS: Warfarin sodium is contraindicated in patients with:
+- Hemorrhagic tendencies or blood dyscrasias [1]
+- Recent or contemplated surgery of the central nervous system or eye, or traumatic surgery resulting in large open surfaces [1]
+- Bleeding tendencies associated with:
+  - Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract [1]
+  - Central nervous system hemorrhage [1]
+  - Cerebral aneurysms, dissecting aorta [1]
+  - Pericarditis and pericardial effusions [1]
+  - Bacterial endocarditis [1]
+  - Threatened abortion, eclampsia, and preeclampsia [1]
+- U
+SRC: ['warfarin sodium|Contraindications', 'warfarin sodium|Contraindications', 'warfarin sodium|Contraindications', 'warfarin sodium|Pregnancy', 'warfarin sodium|Use in Specific Populations']
+
+[NO-RAG] OK  Q: What are the contraindications of warfarin?
+GOLD: pregnan
+ANS: Contraindications for warfarin include:
+
+1. Active bleeding
+2. Recent history of gastrointestinal bleeding
+3. Subacute bacterial endocarditis (without adequate antibiotic treatment)
+4. Severe liver disease
+5. Severe hypertension unresponsive to therapy
+
+Warfarin should also be used with caution in patients with certain conditions or during specific situations, such as pregnancy and certain neurological conditions.
+SRC: []
+
+[RAG] OK  Q: What is the boxed warning for sertraline about?
+GOLD: suicid
+ANS: The boxed warning for sertraline hydrochloride pertains to the increased risk of suicidal thinking and behavior in children, adolescents, and young adults starting antidepressant therapy [1]. It also mentions that depression and certain other psychiatric disorders are associated with an increased risk of suicide [2].
+SRC: ['sertraline hydrochloride|Boxed Warning', 'sertraline hydrochloride|Boxed Warning', 'sertraline hydrochloride|Medication Guide', 'sertraline hydrochloride|Precautions', 'sertraline hydrochloride|Medication Guide']
+
+[NO-RAG] OK  Q: What is the boxed warning for sertraline about?
+GOLD: suicid
+ANS: The boxed warning for sertraline highlights the risk of suicidal thoughts and behaviors in pediatric, adolescent, and young adult patients.
+SRC: []
+
+[RAG] OK  Q: What is the boxed warning for escitalopram about?
+GOLD: suicid
+ANS: The boxed warning for escitalopram is about an increased risk of suicidal thoughts and behaviors in pediatric and young adult patients [1].
+SRC: ['escitalopram oral|Boxed Warning', 'escitalopram oral|Patient Information', 'escitalopram oral|Patient Information', 'escitalopram oral|Warnings and Precautions', 'escitalopram oral|Adverse Reactions']
+
+[NO-RAG] OK  Q: What is the boxed warning for escitalopram about?
+GOLD: suicid
+ANS: The boxed warning for escitalopram (an antidepressant) alerts about the increased risk of suicidal thoughts and behaviors in adolescents, children, and young adults during the first few months of treatment and when the dose is changed.
+SRC: []
+
+[RAG] OK  Q: What is the boxed warning for clopidogrel about?
+GOLD: CYP2C19
+ANS: The boxed warning for clopidogrel highlights the diminished antiplatelet effect in patients with two loss-of-function alleles of the CYP2C19 gene [1]. It also advises considering the use of another platelet P2Y12 inhibitor in patients identified as CYP2C19 poor metabolizers [1, 2].
+SRC: ['clopidogrel bisulfate|Boxed Warning', 'clopidogrel bisulfate|Boxed Warning', 'clopidogrel bisulfate|Medication Guide', 'clopidogrel bisulfate|Medication Guide', 'clopidogrel bisulfate|Medication Guide']
+
+[NO-RAG] MISS Q: What is the boxed warning for clopidogrel about?
+GOLD: CYP2C19
+ANS: The boxed warning for clopidogrel emphasizes the risk of increased bleeding, including fatal bleeding, due to its mechanism as an antiplatelet agent that affects blood clotting.
+SRC: []
+
+[RAG] OK  Q: What is the boxed warning for tramadol about?
+GOLD: addiction
+ANS: The boxed warning for tramadol hydrochloride extended-release tablets includes several key points:
+
+1. **Serious and Life-Threatening Risks**: There is a risk of serious, life-threatening, or fatal respiratory depression, especially upon initiation or following a dosage increase [1, 2].
+
+2. **Addiction, Abuse, and Misuse**: The use of tramadol exposes patients to risks of opioid addiction, abuse, and misuse, which can lead to overdose and death. Assessment of patient risk is necessary [1, 2].
+
+3. **Management by Neonatology Experts**: Management by neonatology experts should be available at de
+SRC: ['tramadol hydrochloride|Boxed Warning', 'tramadol hydrochloride|Boxed Warning', 'tramadol hydrochloride|Boxed Warning', 'tramadol hydrochloride|Boxed Warning', 'tramadol hydrochloride|Boxed Warning']
+
+[NO-RAG] MISS Q: What is the boxed warning for tramadol about?
+GOLD: addiction
+ANS: The boxed warning for tramadol highlights the risk of suicidal thoughts and behaviors in children, adolescents, and young adults within the first 24 hours following initiation or dose increases.
+SRC: []
+
+[RAG] OK  Q: What is the boxed warning for lisinopril about?
+GOLD: fetal toxicity
+ANS: The boxed warning for lisinopril pertains to fetal toxicity [1]. Specifically, it states that lisinopril can cause fetal harm when administered to a pregnant woman and that drugs acting on the renin-angiotensin system can cause injury and death to the developing fetus [1].
+SRC: ['lisinopril|Boxed Warning', 'lisinopril|Warnings and Precautions', 'lisinopril|Patient Information', 'lisinopril|Warnings and Precautions', 'lisinopril|Warnings and Precautions']
+
+[NO-RAG] MISS Q: What is the boxed warning for lisinopril about?
+GOLD: fetal toxicity
+ANS: The boxed warning for lisinopril pertains to the risk of angioedema, a potentially life-threatening condition characterized by rapid swelling of the subcutaneous tissues. This can affect the airway, leading to respiratory distress.
+SRC: []
+
+[RAG] OK  Q: What does the rivaroxaban boxed warning say about stopping the drug early?
+GOLD: thrombotic events
+ANS: The rivaroxaban boxed warning states that premature discontinuation of XARELTO increases the risk of thrombotic events [see Context Passages 1, 2].
+SRC: ['rivaroxaban|Boxed Warning', 'rivaroxaban|Boxed Warning', 'rivaroxaban|Warnings and Precautions', 'rivaroxaban|Warnings and Precautions', 'rivaroxaban|Adverse Reactions']
+
+[NO-RAG] OK  Q: What does the rivaroxaban boxed warning say about stopping the drug early?
+GOLD: thrombotic events
+ANS: The rivaroxaban boxed warning states that patients should not discontinue the drug without consulting their healthcare provider, as abrupt discontinuation can increase the risk of thrombotic events.
+SRC: []
+
+[RAG] OK  Q: What is the maximum daily dose of amlodipine?
+GOLD: 10 mg
+ANS: The maximum daily dose of amlodipine is 10 mg once daily for adults [1]. For small, fragile, or elderly patients, or those with hepatic insufficiency, the maximum dose is also 10 mg once daily [1]. There is no specified maximum dose for pediatric patients, but doses in excess of 5 mg daily have not been studied in them [3].
+SRC: ['amlodipine besylate|Dosage and Administration', 'amlodipine besylate|Dosage and Administration', 'amlodipine besylate|Dosage and Administration', 'amlodipine besylate|Adverse Reactions', 'amlodipine besylate|Pediatric Use']
+
+[NO-RAG] OK  Q: What is the maximum daily dose of amlodipine?
+GOLD: 10 mg
+ANS: The maximum recommended daily dose of amlodipine is 10 mg.
+SRC: []
+
+[RAG] OK  Q: What is the recommended starting dose of atorvastatin?
+GOLD: 20 mg
+ANS: The recommended starting dosage of atorvastatin calcium tablets is 10 mg once daily for adult patients [1, 2, 3]. For pediatric patients 10 years of age and older with heterozygous familial hypercholesterolemia (HeFH), the recommended starting dosage is also 10 mg once daily [1, 3]. For pediatric patients 10 years of age and older with homozygous familial hypercholesterolemia (HoFH), the recommended starting dosage is 10 to 20 mg once daily [1, 3].
+SRC: ['atorvastatin calcium|Dosage and Administration', 'atorvastatin calcium|Dosage and Administration', 'atorvastatin calcium|Dosage and Administration', 'atorvastatin calcium|Adverse Reactions', 'atorvastatin calcium|Pregnancy']
+
+[NO-RAG] MISS Q: What is the recommended starting dose of atorvastatin?
+GOLD: 20 mg
+ANS: The recommended starting dose of atorvastatin is 10 mg once daily.
+SRC: []
+
+[RAG] OK  Q: What are the contraindications of simvastatin?
+GOLD: CYP3A4
+ANS: The contraindications of simvastatin include:
+- Concomitant use of strong CYP3A4 inhibitors (select azole anti-fungals, macrolide antibiotics, anti-viral medications, and nefazodone) [see [1], [5]].
+- Concomitant use of cyclosporine, danazol, or gemfibrozil [see [1], [5]].
+- Acute liver failure or decompensated cirrhosis [see [1], [5]].
+- Hypersensitivity to simvastatin or any excipients in simvastatin tablets USP [see [5]].
+SRC: ['simvastatin|Contraindications', 'simvastatin|Warnings and Precautions', 'simvastatin|Drug Interactions', 'simvastatin|Warnings and Precautions', 'simvastatin|Contraindications']
+
+[NO-RAG] OK  Q: What are the contraindications of simvastatin?
+GOLD: CYP3A4
+ANS: Simvastatin contraindications include:
+
+1. Active liver disease or elevated liver enzymes.
+2. Known hypersensitivity to simvastatin or any component of the formulation.
+3. Concomitant use with strong CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin, indinavir).
+4. Concomitant use with boceprevir or telaprevir.
+5. Predisposition to rhabdomyolysis, especially in patients with renal impairment, uncontrolled diabetes, or those taking fibrates.
+
+Always consult the latest FDA label for the most current information.
+SRC: []
+
+[RAG] OK  Q: What are the contraindications of pantoprazole?
+GOLD: hypersensitiv
+ANS: Pantoprazole sodium is contraindicated in patients with known hypersensitivity reactions including anaphylaxis to the formulation or any substituted benzimidazole [1]. It is also contraindicated in patients receiving rilpivirine-containing products [1].
+SRC: ['pantoprazole sodium|Contraindications', 'pantoprazole sodium|Patient Information', 'pantoprazole sodium|Warnings and Precautions', 'pantoprazole sodium|Adverse Reactions', 'pantoprazole sodium|Warnings and Precautions']
+
+[NO-RAG] OK  Q: What are the contraindications of pantoprazole?
+GOLD: hypersensitiv
+ANS: Pantoprazole contraindications include:
+
+1. Hypersensitivity to pantoprazole or any component of the formulation.
+2. Simultaneous administration with strong CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin) is generally not recommended due to increased risk of adverse effects.
+
+Always consult the latest FDA label for the most accurate and detailed information.
+SRC: []
+
+[RAG] OK  Q: What are the contraindications of apixaban?
+GOLD: bleeding
+ANS: The contraindications of apixaban are:
+• Active pathological bleeding [1]
+• Severe hypersensitivity reaction to apixaban (e.g., anaphylactic reactions) [1]
+SRC: ['apixaban|Contraindications', 'apixaban|Adverse Reactions', 'apixaban|Warnings and Precautions', 'apixaban|Adverse Reactions', 'apixaban|Warnings and Precautions']
+
+[NO-RAG] OK  Q: What are the contraindications of apixaban?
+GOLD: bleeding
+ANS: Apixaban, an anticoagulant, has several contraindications including:
+
+1. **Hypersensitivity** to apixaban or any excipients in the formulation.
+2. **Active pathological bleeding**, such as intracranial hemorrhage or other serious bleeding events.
+3. **Concomitant use with strong CYP3A4 inhibitors**, which can increase apixaban levels and the risk of bleeding.
+
+Always consult the latest FDA-approved label for the most accurate and comprehensive information.
+SRC: []
+
+[RAG] OK  Q: What are the contraindications of losartan?
+GOLD: aliskiren
+ANS: Losartan potassium is contraindicated:
+• In patients who are hypersensitive to any component of this product.
+• For coadministration with aliskiren in patients with diabetes.
+• Hypersensitivity to any component.
+• Coadministration with aliskiren in patients with diabetes. [1]
+SRC: ['losartan potassium|Contraindications', 'losartan potassium|Adverse Reactions', 'losartan potassium|Adverse Reactions', 'losartan potassium|Warnings and Precautions', 'losartan potassium|Drug Interactions']
+
+[NO-RAG] MISS Q: What are the contraindications of losartan?
+GOLD: aliskiren
+ANS: Losartan contraindications include:
+
+1. Hypersensitivity to losartan or any components of the formulation.
+2. Second- and third-trimester pregnancy (fetal injury or death can occur).
+
+These conditions contraindicate the use of losartan due to severe risks.
+SRC: []
+
+[RAG] OK  Q: What is montelukast indicated for?
+GOLD: asthma
+ANS: Montelukast sodium chewable tablets are indicated for:
+- Prophylaxis and chronic treatment of asthma in patients 2 years of age and older [1].
+- Acute prevention of exercise-induced bronchoconstriction (EIB) in patients 6 years of age and older [1].
+- Relief of symptoms of allergic rhinitis, specifically seasonal allergic rhinitis (SAR) in patients 2 years of age and older and perennial allergic rhinitis (PAR) in patients 2 years of age and older. However, it should be reserved for patients who have an inadequate response or intolerance to alternative therapies [2].
+SRC: ['montelukast sodium|Indications and Usage', 'montelukast sodium|Indications and Usage', 'montelukast sodium|Medication Guide', 'montelukast sodium|Warnings and Precautions', 'montelukast sodium|Description']
+
+[NO-RAG] OK  Q: What is montelukast indicated for?
+GOLD: asthma
+ANS: Montelukast is indicated for the prevention and chronic treatment of asthma, and for the prevention and long-term treatment of allergic rhinitis.
+SRC: []
+
+[RAG] MISS Q: What is oral semaglutide indicated for?
+GOLD: glycemic control
+ANS: I could not find this in the provided labels.
+SRC: ['oral semaglutide|Description', 'oral semaglutide|Mechanism of Action', 'oral semaglutide|Clinical Pharmacology', 'oral semaglutide|Mechanism of Action', 'oral semaglutide|Clinical Pharmacology']
+
+[NO-RAG] OK  Q: What is oral semaglutide indicated for?
+GOLD: glycemic control
+ANS: Oral semaglutide is indicated for the treatment of adults with type 2 diabetes to improve glycemic control. It is also approved for weight management in adults with obesity or overweight and coexisting conditions.
+SRC: []
+
+[RAG] OK  Q: What is clopidogrel indicated for?
+GOLD: stroke
+ANS: Clopidogrel tablets are indicated for:
+- Acute coronary syndrome (both non-ST-segment elevation ACS, including unstable angina [UA] and non-ST-elevation myocardial infarction [NSTEMI], and STEMI) [1,4].
+- Recent myocardial infarction (MI), recent stroke, or established peripheral arterial disease [1,2,4].
+SRC: ['clopidogrel bisulfate|Indications and Usage', 'clopidogrel bisulfate|Indications and Usage', 'clopidogrel bisulfate|Medication Guide', 'clopidogrel bisulfate|Indications and Usage', 'clopidogrel bisulfate|Medication Guide']
+
+[NO-RAG] MISS Q: What is clopidogrel indicated for?
+GOLD: stroke
+ANS: Clopidogrel is indicated for the prevention of thrombotic complications in various conditions including acute coronary syndrome, reduction of thrombotic events in patients with stable or unstable angina, and after coronary artery stent placement.
+SRC: []
+
+[RAG] OK  Q: What drug interactions does clopidogrel have with omeprazole?
+GOLD: avoid
+ANS: Clopidogrel's interaction with omeprazole results in a significant reduction in the antiplatelet activity of clopidogrel [1]. This interaction is shown to reduce the antiplatelet activity both when omeprazole is given concomitantly with clopidogrel and when it is given 12 hours apart [1]. Additionally, the interaction between omeprazole and clopidogrel is noted to be the highest among proton pump inhibitors (PPIs) studied [4][5]. Omeprazole should be avoided for coadministration with clopidogrel [1].
+SRC: ['clopidogrel bisulfate|Drug Interactions', 'clopidogrel bisulfate|Clinical Pharmacology', 'clopidogrel bisulfate|Drug Interactions', 'clopidogrel bisulfate|Clinical Pharmacology', 'clopidogrel bisulfate|Pharmacokinetics']
+
+[NO-RAG] MISS Q: What drug interactions does clopidogrel have with omeprazole?
+GOLD: avoid
+ANS: Clopidogrel metabolism can be inhibited by omeprazole, a proton pump inhibitor. Omeprazole reduces the activation of clopidogrel, potentially decreasing its antiplatelet effect.
+SRC: []
+
+[RAG] OK  Q: What are the common adverse reactions of gabapentin?
+GOLD: dizziness
+ANS: The most common adverse reactions associated with the use of Gabapentin in adults, not seen at an equivalent frequency among placebo-treated patients, were dizziness, somnolence, and peripheral edema [1]. For patients >12 years of age with epilepsy, the most common adverse reactions not seen at an equivalent frequency among placebo-treated patients were somnolence, dizziness, ataxia, fatigue, and nystagmus [2,5]. In pediatric patients, the adverse reactions most commonly associated with withdrawal were emotional lability, hostility, and hyperkinesia [4]. Commonly reported reactions include anx
+SRC: ['gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions']
+
+[NO-RAG] OK  Q: What are the common adverse reactions of gabapentin?
+GOLD: dizziness
+ANS: Common adverse reactions of gabapentin include dizziness, somnolence, and ataxia. Other frequent side effects are headache, swelling (edema), and nausea.
+SRC: []
+
+[RAG] OK  Q: What does the furosemide label warn about regarding excessive diuresis?
+GOLD: diuresis
+ANS: The furosemide label warns that excessive diuresis can lead to water and electrolyte depletion [1], dehydration and blood volume reduction with circulatory collapse and possibly vascular thrombosis and embolism, particularly in elderly patients [2, 3]. It also notes that hypokalemia may develop, especially with brisk diuresis, inadequate oral electrolyte intake, when cirrhosis is present, or during concomitant use of certain medications [1, 2, 3].
+SRC: ['furosemide|Warnings', 'furosemide|Precautions', 'furosemide|General Precautions', 'furosemide|Overdosage', 'furosemide|Overdosage']
+
+[NO-RAG] OK  Q: What does the furosemide label warn about regarding excessive diuresis?
+GOLD: diuresis
+ANS: The furosemide label warns that excessive diuresis can lead to dehydration and electrolyte depletion, particularly hypokalemia (low potassium), hyponatremia (low sodium), and hypochloremic alkalosis. It advises monitoring electrolytes, especially in patients with heart failure or renal impairment.
+SRC: []
+
+[RAG] OK  Q: What is the maximum daily dose of acetaminophen?
+GOLD: NOT_FOUND
+ANS: I could not find this in the provided labels.
+SRC: ['escitalopram oral|Dosage and Administration', 'gabapentin|Dosage and Administration', 'gabapentin|Dosage and Administration', 'escitalopram oral|Dosage and Administration', 'gabapentin|Dosage and Administration']
+
+[NO-RAG] MISS Q: What is the maximum daily dose of acetaminophen?
+GOLD: NOT_FOUND
+ANS: The maximum daily dose of acetaminophen is generally considered to be 4,000 mg per day for adults, unless otherwise directed by a healthcare provider. However, it's important to follow the specific dosing instructions on the product label or as prescribed by a healthcare provider.
+SRC: []
+
+[RAG] OK  Q: What are the contraindications of lithium?
+GOLD: NOT_FOUND
+ANS: I could not find this in the provided labels.
+SRC: ['lisinopril|Drug Interactions', 'hydrochlorothiazide|Contraindications', 'furosemide|Contraindications', 'hydrochlorothiazide|Warnings', 'lisinopril|Contraindications']
+
+[NO-RAG] MISS Q: What are the contraindications of lithium?
+GOLD: NOT_FOUND
+ANS: Contraindications for lithium include:
+
+1. Hypothyroidism
+2. Severe renal impairment
+3. Severe cardiac disease
+4. Hyperthyroidism
+5. History of allergies to lithium or other medications
+6. During the first trimester of pregnancy due to potential teratogenic effects
+
+Lithium should also be used with caution in patients with pre-existing kidney, thyroid, or cardiovascular conditions.
+SRC: []
+
+[RAG] OK  Q: What is the boxed warning for fluoxetine about?
+GOLD: NOT_FOUND
+ANS: I could not find this in the provided labels.
+SRC: ['sertraline hydrochloride|Boxed Warning', 'escitalopram oral|Patient Information', 'sertraline hydrochloride|Boxed Warning', 'escitalopram oral|Boxed Warning', 'rivaroxaban|Boxed Warning']
+
+[NO-RAG] MISS Q: What is the boxed warning for fluoxetine about?
+GOLD: NOT_FOUND
+ANS: The boxed warning for fluoxetine (Prozac) highlights the risk of suicidal thoughts and behaviors in children, adolescents, and young adults during the first few months of treatment or when the dose is changed.
+SRC: []
+
+[RAG] MISS Q: What is the recommended dose of aspirin after a heart attack?
+GOLD: NOT_FOUND
+ANS: For high-risk patients with myocardial infarction (MI), such as those with a large anterior MI, significant heart failure, intracardiac thrombus visible on transthoracic echocardiography, atrial fibrillation (AF), or a history of a thromboembolic event, the recommended regimen includes a moderate-intensity dose of warfarin (INR 2 to 3) plus low-dose aspirin (≤ 100 mg/day) for at least 3 months after the MI [1].
+SRC: ['warfarin sodium|Dosage and Administration', 'rivaroxaban|Dosage and Administration', 'warfarin sodium|Dosage and Administration', 'rivaroxaban|Medication Guide', 'rivaroxaban|Dosage and Administration']
+
+[NO-RAG] MISS Q: What is the recommended dose of aspirin after a heart attack?
+GOLD: NOT_FOUND
+ANS: The recommended dose of aspirin after a heart attack is typically 75-162 mg daily to prevent further cardiovascular events. Always follow the specific dosage instructions provided by your healthcare provider or as updated in the latest FDA labeling.
+SRC: []
+
+[RAG] OK  Q: What is the recommended starting dose of levothyroxine?
+GOLD: 1.6 mcg/kg
+ANS: The recommended starting dose of levothyroxine varies by patient group:
+
+- For some patients, a lower starting dose is required, specifically less than 1.6 mcg/kg/day [1, 2, 3].
+- For adults diagnosed with hypothyroidism, the full replacement dose is 1.6 mcg/kg/day, but some patients may require a lower starting dose [5].
+- In pediatric patients with primary, secondary, or tertiary hypothyroidism, the recommended starting daily dosage is based on body weight and changes with age as described in Table 2 [2, 3].
+SRC: ['levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration']
+
+[NO-RAG] MISS Q: What is the recommended starting dose of levothyroxine?
+GOLD: 1.6 mcg/kg
+ANS: The recommended starting dose of levothyroxine varies depending on the patient's needs, but it typically ranges from 25 to 50 micrograms per day. Adjustments should be made based on TSH levels and clinical response.
+SRC: []

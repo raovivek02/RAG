@@ -1,0 +1,9 @@
+chunk_size,mode,recall@5,MRR
+256,dense,0.952,0.929
+256,+filter,0.952,0.929
+256,+filter+rerank,0.952,0.885
+256,+fusion,0.952,0.929
+512,dense,0.905,0.849
+512,+filter,0.905,0.849
+512,+filter+rerank,0.952,0.952
+512,+fusion,0.952,0.897

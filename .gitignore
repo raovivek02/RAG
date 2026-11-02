@@ -1,0 +1,5 @@
+hf_cache/
+data/
+index/
+__pycache__/
+*.log

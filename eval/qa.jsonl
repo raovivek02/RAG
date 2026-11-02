@@ -1,0 +1,25 @@
+{"q": "What is the maximum recommended daily dose of metformin for adults?", "drug": "metformin", "section": "Dosage and Administration", "answer": "2550 mg"}
+{"q": "What are the contraindications of warfarin?", "drug": "warfarin", "section": "Contraindications", "answer": "pregnan"}
+{"q": "What is the boxed warning for sertraline about?", "drug": "sertraline", "section": "Boxed Warning", "answer": "suicid"}
+{"q": "What is the boxed warning for escitalopram about?", "drug": "escitalopram", "section": "Boxed Warning", "answer": "suicid"}
+{"q": "What is the boxed warning for clopidogrel about?", "drug": "clopidogrel", "section": "Boxed Warning", "answer": "CYP2C19"}
+{"q": "What is the boxed warning for tramadol about?", "drug": "tramadol", "section": "Boxed Warning", "answer": "addiction"}
+{"q": "What is the boxed warning for lisinopril about?", "drug": "lisinopril", "section": "Boxed Warning", "answer": "fetal toxicity"}
+{"q": "What does the rivaroxaban boxed warning say about stopping the drug early?", "drug": "rivaroxaban", "section": "Boxed Warning", "answer": "thrombotic events"}
+{"q": "What is the maximum daily dose of amlodipine?", "drug": "amlodipine", "section": "Dosage and Administration", "answer": "10 mg"}
+{"q": "What is the recommended starting dose of atorvastatin?", "drug": "atorvastatin", "section": "Dosage and Administration", "answer": "20 mg"}
+{"q": "What are the contraindications of simvastatin?", "drug": "simvastatin", "section": "Contraindications", "answer": "CYP3A4"}
+{"q": "What are the contraindications of pantoprazole?", "drug": "pantoprazole", "section": "Contraindications", "answer": "hypersensitiv"}
+{"q": "What are the contraindications of apixaban?", "drug": "apixaban", "section": "Contraindications", "answer": "bleeding"}
+{"q": "What are the contraindications of losartan?", "drug": "losartan", "section": "Contraindications", "answer": "aliskiren"}
+{"q": "What is montelukast indicated for?", "drug": "montelukast", "section": "Indications and Usage", "answer": "asthma"}
+{"q": "What is oral semaglutide indicated for?", "drug": "semaglutide", "section": "Indications and Usage", "answer": "glycemic control"}
+{"q": "What is clopidogrel indicated for?", "drug": "clopidogrel", "section": "Indications and Usage", "answer": "stroke"}
+{"q": "What drug interactions does clopidogrel have with omeprazole?", "drug": "clopidogrel", "section": "Drug Interactions", "answer": "avoid"}
+{"q": "What are the common adverse reactions of gabapentin?", "drug": "gabapentin", "section": "Adverse Reactions", "answer": "dizziness"}
+{"q": "What does the furosemide label warn about regarding excessive diuresis?", "drug": "furosemide", "section": "Warnings", "answer": "diuresis"}
+{"q": "What is the maximum daily dose of acetaminophen?", "drug": null, "section": null, "answer": "NOT_FOUND"}
+{"q": "What are the contraindications of lithium?", "drug": null, "section": null, "answer": "NOT_FOUND"}
+{"q": "What is the boxed warning for fluoxetine about?", "drug": null, "section": null, "answer": "NOT_FOUND"}
+{"q": "What is the recommended dose of ciprofloxacin for a urinary tract infection?", "drug": null, "section": null, "answer": "NOT_FOUND"}
+{"q": "What is the recommended starting dose of levothyroxine?", "drug": "levothyroxine", "section": "Dosage and Administration", "answer": "1.6 mcg/kg"}

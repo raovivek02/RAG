@@ -1,0 +1,14 @@
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/BAAI/bge-reranker-base: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'BAAI/bge-reranker-base'.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4085.08it/s]
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/BAAI/bge-small-en-v1.5: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'BAAI/bge-small-en-v1.5'.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4321.23it/s]
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/BAAI/bge-small-en-v1.5: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'BAAI/bge-small-en-v1.5'.
+chunk=256  dense           recall@5=0.95  MRR=0.93
+chunk=256  +filter         recall@5=0.95  MRR=0.93
+chunk=256  +filter+rerank  recall@5=0.95  MRR=0.88
+chunk=256  +fusion         recall@5=0.95  MRR=0.93
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5684.69it/s]
+chunk=512  dense           recall@5=0.90  MRR=0.85
+chunk=512  +filter         recall@5=0.90  MRR=0.85
+chunk=512  +filter+rerank  recall@5=0.95  MRR=0.95
+chunk=512  +fusion         recall@5=0.95  MRR=0.90
