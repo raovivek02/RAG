@@ -1,3 +1,4 @@
+"""Print the questions whose gold chunk was not ranked first, with what was retrieved instead."""
 import json
 from retriever import DenseRetriever
 from reranker import Reranker

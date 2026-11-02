@@ -1,3 +1,4 @@
+"""Compute recall@5 and MRR for each chunk size and retrieval mode on eval/qa.jsonl."""
 import json, csv
 from retriever import DenseRetriever
 from reranker import Reranker, fuse

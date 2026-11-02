@@ -1,3 +1,4 @@
+"""Re-download labels where the first search returned combination products, using exact generic names."""
 import json, time, requests
 from pathlib import Path
 

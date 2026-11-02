@@ -1,3 +1,4 @@
+"""Run RAG and no-RAG on eval/qa.jsonl; report accuracy, false refusals and correct refusals."""
 import json, re, sys
 from rag import RAG
 

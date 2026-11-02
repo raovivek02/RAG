@@ -1,3 +1,4 @@
+"""Download one openFDA drug label per drug in DRUGS into data/raw/."""
 import json, time, requests
 from pathlib import Path
 

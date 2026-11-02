@@ -1,3 +1,4 @@
+"""Compare dense, filtered and reranked retrieval on a few sample questions."""
 import sys
 from retriever import DenseRetriever
 from reranker import Reranker

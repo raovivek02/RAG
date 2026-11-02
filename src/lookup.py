@@ -1,3 +1,4 @@
+"""Print chunks for a given drug and section (used to write gold answers)."""
 import json, sys
 drug, section = sys.argv[1].lower(), sys.argv[2]
 for l in open("data/processed/chunks_256.jsonl"):

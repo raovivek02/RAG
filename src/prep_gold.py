@@ -1,3 +1,4 @@
+"""Write the source text for each eval question to a helper file for writing gold answers."""
 import json
 chunks = [json.loads(l) for l in open("data/processed/chunks_256.jsonl")]
 out = []

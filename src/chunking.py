@@ -1,3 +1,4 @@
+"""Split label sections into sentence-based chunks with overlap and a Drug/Section header; write JSONL."""
 import re, json, argparse
 from pathlib import Path
 from transformers import AutoTokenizer

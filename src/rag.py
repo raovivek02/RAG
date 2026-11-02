@@ -1,9 +1,11 @@
+"""Answer questions: fuse retrieval, build a cited prompt, generate with Qwen; optional no-RAG baseline."""
 import sys, torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from retriever import DenseRetriever
 from reranker import Reranker, fuse
 
-LLM = "Qwen/Qwen2.5-7B-Instruct"
+import os
+LLM = os.environ.get("MEDRAG_LLM", "Qwen/Qwen2.5-7B-Instruct")
 SYS_RAG = ("You answer questions about FDA drug labels. Use ONLY the numbered context passages. "
            "Cite every claim with its passage number, like [1]. If the passages do not contain "
            "the answer, reply exactly: I could not find this in the provided labels. "
@@ -11,7 +13,7 @@ SYS_RAG = ("You answer questions about FDA drug labels. Use ONLY the numbered co
 SYS_PLAIN = "You answer questions about FDA drug labels from your own knowledge. Be concise."
 
 class RAG:
-    def __init__(self, size=256, device="cuda"):
+    def __init__(self, size=256, device="cuda" if torch.cuda.is_available() else "cpu"):
         self.ret = DenseRetriever(size=size, device=device)
         self.rr = Reranker(device=device)
         self.tok = AutoTokenizer.from_pretrained(LLM)

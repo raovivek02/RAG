@@ -1,3 +1,4 @@
+"""Embed chunks with bge-small and save a FAISS inner-product index."""
 import json, argparse, torch, faiss
 from sentence_transformers import SentenceTransformer
 

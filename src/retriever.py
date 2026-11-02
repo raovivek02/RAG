@@ -1,3 +1,4 @@
+"""Dense retrieval over the FAISS index with a drug-name filter."""
 import json, re, sys, faiss
 from sentence_transformers import SentenceTransformer
 

@@ -1,3 +1,4 @@
+"""Cross-encoder reranking and reciprocal-rank fusion of dense and reranker orderings."""
 import sys
 from sentence_transformers import CrossEncoder
 from retriever import DenseRetriever
