@@ -20,7 +20,7 @@ openFDA JSON -> section-aware chunking (256 tokens, 40 overlap; header "Drug | S
 
 ## Results (25 hand-written questions: 21 answerable, 4 unanswerable)
 Retrieval, recall@5 / MRR: dense 0.95 / 0.93; +rerank 0.95 / 0.88; +fusion 0.95 / 0.93 (chunk 256).
-Generation, answer accuracy: RAG 0.95 vs no-RAG 0.62. False refusals 1/21.
+Generation, answer accuracy: RAG 0.95 vs no-RAG 0.62. False refusals 1/21. Correct refusals on unanswerable questions: 4/4.
 n is small (one question is about 5 points), so differences of one or two questions are indicative only.
 
 ## Known failures

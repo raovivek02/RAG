@@ -460,23 +460,23 @@
   "sources": []
  },
  {
-  "q": "What is the recommended dose of aspirin after a heart attack?",
+  "q": "What is the recommended dose of ciprofloxacin for a urinary tract infection?",
   "gold": "NOT_FOUND",
   "mode": "RAG",
-  "answer": "For high-risk patients with myocardial infarction (MI), such as those with a large anterior MI, significant heart failure, intracardiac thrombus visible on transthoracic echocardiography, atrial fibrillation (AF), or a history of a thromboembolic event, the recommended regimen includes a moderate-intensity dose of warfarin (INR 2 to 3) plus low-dose aspirin (\u2264 100 mg/day) for at least 3 months after the MI [1].",
+  "answer": "I could not find this in the provided labels.",
   "sources": [
-   "warfarin sodium|Dosage and Administration",
-   "rivaroxaban|Dosage and Administration",
-   "warfarin sodium|Dosage and Administration",
-   "rivaroxaban|Medication Guide",
-   "rivaroxaban|Dosage and Administration"
+   "azithromycin|Dosage and Administration",
+   "amoxicillin|Dosage and Administration",
+   "azithromycin|Dosage and Administration",
+   "amoxicillin|Dosage and Administration",
+   "amoxicillin|Dosage and Administration"
   ]
  },
  {
-  "q": "What is the recommended dose of aspirin after a heart attack?",
+  "q": "What is the recommended dose of ciprofloxacin for a urinary tract infection?",
   "gold": "NOT_FOUND",
   "mode": "NO-RAG",
-  "answer": "The recommended dose of aspirin after a heart attack is typically 75-162 mg daily to prevent further cardiovascular events. Always follow the specific dosage instructions provided by your healthcare provider or as updated in the latest FDA labeling.",
+  "answer": "The recommended dose of ciprofloxacin for a urinary tract infection (UTI) in adults is typically 500 mg to 1000 mg once or twice daily, depending on the severity and type of infection. Always refer to the latest FDA-approved label for specific dosing instructions.",
   "sources": []
  },
  {
