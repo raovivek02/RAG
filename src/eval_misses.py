@@ -1,12 +1,13 @@
 """Print the questions whose gold chunk was not ranked first, with what was retrieved instead."""
 import json
 from retriever import DenseRetriever
-from reranker import Reranker
+from hybrid import HybridRetriever
+from reranker import Reranker, fuse
 
 qa = [json.loads(l) for l in open("eval/qa.jsonl") if l.strip()]
 qa = [x for x in qa if x["answer"] != "NOT_FOUND"]
 K, size = 5, 256
-ret, rr = DenseRetriever(size=size), Reranker()
+ret, rr = HybridRetriever(size=size), Reranker()
 
 def rank_of(hits, x):
     for i, h in enumerate(hits[:K], 1):
@@ -14,7 +15,9 @@ def rank_of(hits, x):
             return i
 
 modes = {"dense": lambda q: ret.search(q, K, use_filter=False),
-         "+filter+rerank": lambda q: rr.rerank(q, ret.search(q, 20), K)}
+         "+filter+rerank": lambda q: rr.rerank(q, ret.search(q, 20), K),
+         "hybrid": lambda q: ret.search_hybrid(q, K),
+         "hybrid+fusion": lambda q: fuse(q, ret.search_hybrid(q, 20), rr, K)}
 for name, fn in modes.items():
     print(f"\n===== chunk={size} {name} =====")
     for x in qa:

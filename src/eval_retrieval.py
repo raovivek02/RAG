@@ -1,6 +1,7 @@
 """Compute recall@5 and MRR for each chunk size and retrieval mode on eval/qa.jsonl."""
 import json, csv
 from retriever import DenseRetriever
+from hybrid import HybridRetriever
 from reranker import Reranker, fuse
 
 qa = [json.loads(l) for l in open("eval/qa.jsonl") if l.strip()]
@@ -16,12 +17,14 @@ def rank_of(hits, x):
 
 rows = []
 for size in (256, 512):
-    ret = DenseRetriever(size=size)
+    ret = HybridRetriever(size=size)
     modes = {
         "dense": lambda q: ret.search(q, K, use_filter=False),
         "+filter": lambda q: ret.search(q, K),
         "+filter+rerank": lambda q: rr.rerank(q, ret.search(q, 20), K),
         "+fusion": lambda q: fuse(q, ret.search(q, 20), rr, K),
+        "hybrid": lambda q: ret.search_hybrid(q, K),
+        "hybrid+fusion": lambda q: fuse(q, ret.search_hybrid(q, 20), rr, K),
     }
     for name, fn in modes.items():
         ranks = [rank_of(fn(x["q"]), x) for x in qa]
