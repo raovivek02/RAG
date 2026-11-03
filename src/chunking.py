@@ -75,6 +75,18 @@ def chunk_text(text, max_tokens, overlap_tokens):
         chunks.append(" ".join(x[0] for x in cur))
     return chunks
 
+def dedup_sentences(text, min_len=60):
+    """Drop long sentences already seen earlier in the same section."""
+    seen, out = set(), []
+    for s in re.split(r"(?<=[.!?])\s+", text):
+        key = " ".join(s.lower().split())
+        if len(key) > min_len and key in seen:
+            continue
+        seen.add(key)
+        out.append(s)
+    return " ".join(out)
+
+
 def main(size, overlap):
     out, records = Path(f"data/processed/chunks_{size}.jsonl"), []
     for fp in sorted(Path("data/raw").glob("*.json")):
@@ -84,7 +96,7 @@ def main(size, overlap):
         for key, section in SECTIONS.items():
             if key not in d:
                 continue
-            text = clean(" ".join(d[key]))
+            text = dedup_sentences(clean(" ".join(d[key])))
             if len(text) < 50:
                 continue
             # reserve ~30 tokens for the "Drug | Section" header
