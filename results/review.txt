@@ -10,18 +10,18 @@ SRC: []
 
 [RAG] OK  Q: What are the contraindications of warfarin?
 GOLD: pregnan
-ANS: Warfarin sodium is contraindicated in patients with:
+ANS: Warfarin sodium is contraindicated in the following conditions:
+
 - Hemorrhagic tendencies or blood dyscrasias [1]
 - Recent or contemplated surgery of the central nervous system or eye, or traumatic surgery resulting in large open surfaces [1]
-- Bleeding tendencies associated with:
-  - Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract [1]
-  - Central nervous system hemorrhage [1]
-  - Cerebral aneurysms, dissecting aorta [1]
-  - Pericarditis and pericardial effusions [1]
-  - Bacterial endocarditis [1]
-  - Threatened abortion, eclampsia, and preeclampsia [1]
-- U
-SRC: ['warfarin sodium|Contraindications', 'warfarin sodium|Contraindications', 'warfarin sodium|Contraindications', 'warfarin sodium|Pregnancy', 'warfarin sodium|Use in Specific Populations']
+- Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract [1]
+- Central nervous system hemorrhage [1]
+- Cerebral aneurysms, dissecting aorta [1]
+- Pericarditis and pericardial effusions [1]
+- Bacterial endocarditis [1]
+- Threatened abortion, eclampsia, and preeclampsia [1]
+- Unsupervised patients with conditions as
+SRC: ['warfarin sodium|Contraindications', 'warfarin sodium|Contraindications', 'warfarin sodium|Contraindications', 'warfarin sodium|Use in Specific Populations', 'warfarin sodium|Pregnancy']
 
 [NO-RAG] OK  Q: What are the contraindications of warfarin?
 GOLD: pregnan
@@ -127,9 +127,9 @@ GOLD: CYP3A4
 ANS: The contraindications of simvastatin include:
 - Concomitant use of strong CYP3A4 inhibitors (select azole anti-fungals, macrolide antibiotics, anti-viral medications, and nefazodone) [see [1], [5]].
 - Concomitant use of cyclosporine, danazol, or gemfibrozil [see [1], [5]].
-- Acute liver failure or decompensated cirrhosis [see [1], [5]].
+- Acute liver failure or decompensated cirrhosis [see [1], [5], [3]].
 - Hypersensitivity to simvastatin or any excipients in simvastatin tablets USP [see [5]].
-SRC: ['simvastatin|Contraindications', 'simvastatin|Warnings and Precautions', 'simvastatin|Drug Interactions', 'simvastatin|Warnings and Precautions', 'simvastatin|Contraindications']
+SRC: ['simvastatin|Contraindications', 'simvastatin|Warnings and Precautions', 'simvastatin|Warnings and Precautions', 'simvastatin|Drug Interactions', 'simvastatin|Contraindications']
 
 [NO-RAG] OK  Q: What are the contraindications of simvastatin?
 GOLD: CYP3A4
@@ -147,7 +147,7 @@ SRC: []
 [RAG] OK  Q: What are the contraindications of pantoprazole?
 GOLD: hypersensitiv
 ANS: Pantoprazole sodium is contraindicated in patients with known hypersensitivity reactions including anaphylaxis to the formulation or any substituted benzimidazole [1]. It is also contraindicated in patients receiving rilpivirine-containing products [1].
-SRC: ['pantoprazole sodium|Contraindications', 'pantoprazole sodium|Patient Information', 'pantoprazole sodium|Warnings and Precautions', 'pantoprazole sodium|Adverse Reactions', 'pantoprazole sodium|Warnings and Precautions']
+SRC: ['pantoprazole sodium|Contraindications', 'pantoprazole sodium|Warnings and Precautions', 'pantoprazole sodium|Patient Information', 'pantoprazole sodium|Adverse Reactions', 'pantoprazole sodium|Adverse Reactions']
 
 [NO-RAG] OK  Q: What are the contraindications of pantoprazole?
 GOLD: hypersensitiv
@@ -201,8 +201,8 @@ GOLD: asthma
 ANS: Montelukast sodium chewable tablets are indicated for:
 - Prophylaxis and chronic treatment of asthma in patients 2 years of age and older [1].
 - Acute prevention of exercise-induced bronchoconstriction (EIB) in patients 6 years of age and older [1].
-- Relief of symptoms of allergic rhinitis, specifically seasonal allergic rhinitis (SAR) in patients 2 years of age and older and perennial allergic rhinitis (PAR) in patients 2 years of age and older. However, it should be reserved for patients who have an inadequate response or intolerance to alternative therapies [2].
-SRC: ['montelukast sodium|Indications and Usage', 'montelukast sodium|Indications and Usage', 'montelukast sodium|Medication Guide', 'montelukast sodium|Warnings and Precautions', 'montelukast sodium|Description']
+- Relief of symptoms of allergic rhinitis, specifically seasonal allergic rhinitis (SAR) in patients 2 years of age and older and perennial allergic rhinitis (PAR) in patients 2 years of age and older. However, it should be reserved for patients who have an inadequate response or intolerance to alternative therapies [1, 3].
+SRC: ['montelukast sodium|Indications and Usage', 'montelukast sodium|Medication Guide', 'montelukast sodium|Indications and Usage', 'montelukast sodium|Warnings and Precautions', 'montelukast sodium|Description']
 
 [NO-RAG] OK  Q: What is montelukast indicated for?
 GOLD: asthma
@@ -222,8 +222,9 @@ SRC: []
 [RAG] OK  Q: What is clopidogrel indicated for?
 GOLD: stroke
 ANS: Clopidogrel tablets are indicated for:
-- Acute coronary syndrome (both non-ST-segment elevation ACS, including unstable angina [UA] and non-ST-elevation myocardial infarction [NSTEMI], and STEMI) [1,4].
-- Recent myocardial infarction (MI), recent stroke, or established peripheral arterial disease [1,2,4].
+- Acute coronary syndrome (both non-ST-segment elevation ACS, including unstable angina [UA]/non-ST-elevation myocardial infarction [NSTEMI], and STEMI) [1, 4].
+- Reducing the rate of myocardial infarction (MI) and stroke in patients with recent MI, recent stroke, or established peripheral arterial disease [1, 2, 4].
+- Use alone or with aspirin to lower the chance of having another serious problem with the heart or blood vessels such as heart attack, stroke, or blood clot that can lead to death [3].
 SRC: ['clopidogrel bisulfate|Indications and Usage', 'clopidogrel bisulfate|Indications and Usage', 'clopidogrel bisulfate|Medication Guide', 'clopidogrel bisulfate|Indications and Usage', 'clopidogrel bisulfate|Medication Guide']
 
 [NO-RAG] MISS Q: What is clopidogrel indicated for?
@@ -243,7 +244,7 @@ SRC: []
 
 [RAG] OK  Q: What are the common adverse reactions of gabapentin?
 GOLD: dizziness
-ANS: The most common adverse reactions associated with the use of Gabapentin in adults, not seen at an equivalent frequency among placebo-treated patients, were dizziness, somnolence, and peripheral edema [1]. For patients >12 years of age with epilepsy, the most common adverse reactions not seen at an equivalent frequency among placebo-treated patients were somnolence, dizziness, ataxia, fatigue, and nystagmus [2,5]. In pediatric patients, the adverse reactions most commonly associated with withdrawal were emotional lability, hostility, and hyperkinesia [4]. Commonly reported reactions include anx
+ANS: The common adverse reactions of gabapentin include somnolence, dizziness, ataxia, fatigue, and nystagmus in adult patients over 12 years old [1]. For pediatric patients aged 3 to 12 years, the common adverse reactions include viral infection, fever, nausea and/or vomiting, somnolence, and hostility [4]. In patients over 12 years old, somnolence, ataxia, fatigue, nausea and/or vomiting, and dizziness were also commonly reported [4]. Pain, tremor, neuralgia, back pain, dyspepsia, dyspnea, and flu syndrome were also reported but were equally or more frequent in the placebo group [1].
 SRC: ['gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions', 'gabapentin|Adverse Reactions']
 
 [NO-RAG] OK  Q: What are the common adverse reactions of gabapentin?
@@ -293,7 +294,7 @@ SRC: []
 [RAG] OK  Q: What is the boxed warning for fluoxetine about?
 GOLD: NOT_FOUND
 ANS: I could not find this in the provided labels.
-SRC: ['sertraline hydrochloride|Boxed Warning', 'escitalopram oral|Patient Information', 'sertraline hydrochloride|Boxed Warning', 'escitalopram oral|Boxed Warning', 'rivaroxaban|Boxed Warning']
+SRC: ['sertraline hydrochloride|Boxed Warning', 'escitalopram oral|Patient Information', 'sertraline hydrochloride|Boxed Warning', 'rivaroxaban|Boxed Warning', 'escitalopram oral|Boxed Warning']
 
 [NO-RAG] MISS Q: What is the boxed warning for fluoxetine about?
 GOLD: NOT_FOUND
@@ -312,11 +313,12 @@ SRC: []
 
 [RAG] OK  Q: What is the recommended starting dose of levothyroxine?
 GOLD: 1.6 mcg/kg
-ANS: The recommended starting dose of levothyroxine varies by patient group:
+ANS: The recommended starting dose of levothyroxine sodium varies by patient population:
 
-- For some patients, a lower starting dose is required, specifically less than 1.6 mcg/kg/day [1, 2, 3].
-- For adults diagnosed with hypothyroidism, the full replacement dose is 1.6 mcg/kg/day, but some patients may require a lower starting dose [5].
-- In pediatric patients with primary, secondary, or tertiary hypothyroidism, the recommended starting daily dosage is based on body weight and changes with age as described in Table 2 [2, 3].
+- **For pediatric patients** with primary, secondary, or tertiary hypothyroidism, the starting daily dosage is based on body weight and changes with age [1].
+- **For adults** diagnosed with hypothyroidism, the full replacement dose is 1.6 mcg/kg/day, but some patients may require a lower starting dose [2].
+- **For pregnant patients** with pre-existing primary hypothyroidism, the starting dosage is based on their pre-pregnancy dosage, which may need adjustment during pregnancy [4].
+- **For neonates** at risk fo
 SRC: ['levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration', 'levothyroxine sodium|Dosage and Administration']
 
 [NO-RAG] MISS Q: What is the recommended starting dose of levothyroxine?
