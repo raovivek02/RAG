@@ -61,9 +61,12 @@ With 21 answerable questions, one question is about 5 points, so differences of 
 
 ## Known failures
 - Metformin: a pediatric limit (2000 mg) was given for an adult question; fixed by telling the model to name the patient group.
-- Oral semaglutide: the Indications chunk was not retrieved (brand names RYBELSUS/OZEMPIC vs query wording).
+- Oral semaglutide: the Indications chunk is 1 of 128 chunks for this label; it ranks 80th by dense similarity and 12th by BM25, so it never reaches the top 5. BM25 hybrid search did not fix it. Hypothesis (untested): longer sections that discuss the drug outscore a short list of indications.
 - The reranker alone lowered MRR at 256 tokens; fusion removed the regression.
-- Labels repeat text, so duplicate chunks fill the top 5 (not yet deduplicated).
+
+## Things I tried
+- Sentence-level deduplication within each section: 3,775 -> 3,640 chunks (-3.6%) at size 256; recall and MRR unchanged. Labels such as gabapentin and levothyroxine repeat sentences within a section.
+- BM25 hybrid search (dense + BM25, rank fusion): no gain over dense + rerank fusion on these 21 questions, so it is not in the generation pipeline.
 
 ## Next steps
-Chunk deduplication, BM25 hybrid search, query-to-section routing, faithfulness checks, more drugs.
+Query-to-section routing (to be tested on new held-out questions), faithfulness checks, more drugs.
